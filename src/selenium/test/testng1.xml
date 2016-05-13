@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1" verbose="1">
+	<!--parameter 参数化数据  -->
+	<parameter name="platform" value="ff" />
+	<parameter name="bd1" value="p1" />
+	<parameter name="bd2" value="2" />
+	<test name="selenium.test">
+		
+		<classes>
+
+			<!-- <class name="selenium.test.Test_Parameters" /> -->
+			<class name="selenium.test.Test_2">
+				<methods>
+					<include name="baidu1" />
+					<include name="baidu2" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>

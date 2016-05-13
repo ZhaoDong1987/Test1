@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27387" started-at="2016-05-13T07:24:47Z" finished-at="2016-05-13T07:25:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27387" started-at="2016-05-13T07:24:47Z" finished-at="2016-05-13T07:25:14Z">
+      <class name="yorhome.testcases.NewLoginCase3">
+        <test-method status="PASS" signature="beforeLogin()[pri:0, instance:yorhome.testcases.NewLoginCase3@1efef64]" name="beforeLogin" is-config="true" duration-ms="5250" started-at="2016-05-13T15:24:47Z" finished-at="2016-05-13T15:24:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeLogin -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:yorhome.testcases.NewLoginCase3@1efef64]" name="Login" duration-ms="18769" started-at="2016-05-13T15:24:52Z" finished-at="2016-05-13T15:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterLogin()[pri:0, instance:yorhome.testcases.NewLoginCase3@1efef64]" name="afterLogin" is-config="true" duration-ms="3318" started-at="2016-05-13T15:25:11Z" finished-at="2016-05-13T15:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterLogin -->
+      </class> <!-- yorhome.testcases.NewLoginCase3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

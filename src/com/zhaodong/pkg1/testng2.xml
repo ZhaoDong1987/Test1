@@ -1,0 +1,37 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1" verbose="1" preserve-order="true">
+	<!--parameter 参数化数据 -->
+	<parameter name="platform" value="ff" />
+	<parameter name="zh_bd1" value="zh_p1" />
+	<parameter name="zh_bd2" value="zh_p2" />
+	<test name="selenium.test">
+		<groups >
+			<define name="tb4" />
+			<define name="tb3" />
+			<define name="tb" />
+			<define name="tb1" />
+			<define name="tb2" />
+
+			<define name="in1">
+				<include name="tb4" />
+				<include name="tb3" />
+			</define>
+			<run>
+				<include name="in1" />
+				
+			</run>
+		</groups>
+		<classes>
+
+			<!-- <class name="selenium.test.Test_Parameters" /> -->
+			<class name="com.zhaodong.pkg1.Test_2">
+				<methods>
+					<include name="baidu3" />
+					<include name="baidu2" />
+					<include name="baidu4" />
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+</suite>
